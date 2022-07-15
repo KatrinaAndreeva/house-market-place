@@ -4,6 +4,10 @@ import { ReactComponent as EditIcon } from '../assets/svg/editIcon.svg'
 import bedIcon from '../assets/svg/bedIcon.svg'
 import bathtubIcon from '../assets/svg/bathtubIcon.svg'
 import React from 'react';
+
+
+
+
 function ListingItem({ listing, id, onEdit, onDelete }) {
   return (
     <li className='categoryListing'>
